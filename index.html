@@ -69,13 +69,30 @@ font-weight: 400;
 <iframe
     class="d-block d-sm-none w-100" 
 	src="https://player.twitch.tv/?channel=insomniac&parent=mobileoutput.live"
-    height="220"
+    height="219"
     width="100%"
 	autoplay="true"
 	muted="true"
     allowfullscreen="<allowfullscreen>">
 </iframe>		
 	
+		
+<br>		
+<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="SamplePlayerDivID"></div>
+<script type="text/javascript">
+  var options = {
+    width: 1109,
+    height: 627,
+    channel: "insomniac",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com
+    parent: ["mobileoutput.live", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("SamplePlayerDivID", options);
+  player.setVolume(0.5);
+</script>		
+		
+		
 	
 <p>		
 <table class="mx-auto w-auto">
