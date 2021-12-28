@@ -1,2 +1,0 @@
-# mobileoutput.github.io
- 
